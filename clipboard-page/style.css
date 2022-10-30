@@ -1,0 +1,78 @@
+:root {
+  --color-primary-1: hsl(171, 66%, 44%);
+  --color-primary-2: hsl(233, 100%, 69%);
+
+  --color-neutral-1: hsl(210, 10%, 33%);
+  --color-neutral-2: hsl(201, 11%, 66%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 1.8rem;
+}
+
+.first-section {
+  margin: 0 auto;
+  width: 600px;
+  padding: 5rem;
+  background-color: aqua;
+  background-image: url(./images/bg-header-desktop.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.header-intro {
+  text-align: center;
+}
+
+.header-intro > * {
+  margin-bottom: 3rem;
+}
+
+.header-logo {
+  margin-top: 10rem;
+  height: 7rem;
+}
+
+.heading-main {
+  font-weight: 600;
+}
+
+.text-description {
+  color: var(--color-neutral-2);
+  font-weight: 400;
+}
+
+.btn {
+  padding: 1.3rem 3rem;
+  border: none;
+  border-radius: 10rem;
+  display: inline-block;
+  color: #fff;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn--green {
+  background-color: var(--color-primary-1);
+}
+
+.btn--blue {
+  background-color: var(--color-primary-2);
+}
+
+.buttons {
+  margin-bottom: 10rem;
+}
