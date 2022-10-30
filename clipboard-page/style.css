@@ -32,11 +32,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  transition: all 0.3s;
 }
-
-/* .header-intro {
-  text-align: center;
-} */
 
 .header-intro > * {
   margin-bottom: 3rem;
@@ -64,14 +61,33 @@ body {
   color: #fff;
   font-family: inherit;
   cursor: pointer;
+  transition: all 0.3s;
 }
 
 .btn--green {
   background-color: var(--color-primary-1);
 }
 
+.btn--green:hover {
+  box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.25);
+  transform: scale(1.05);
+}
+
+.btn--green:active {
+  transform: scale(1);
+}
+
 .btn--blue {
   background-color: var(--color-primary-2);
+}
+
+.btn--blue:hover {
+  box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.25);
+  transform: scale(1.05);
+}
+
+.btn--blue:active {
+  transform: scale(1);
 }
 
 .buttons {
