@@ -94,7 +94,8 @@ body {
   margin-bottom: 10rem;
 }
 
-.product-intro h1 {
+.product-intro,
+.product-info-box-3 h1 {
   margin-bottom: 2rem;
 }
 
@@ -104,6 +105,12 @@ body {
 
 .product-info-box-1 {
   display: flex;
+  margin-bottom: 10rem;
+}
+
+.product-info-box-2,
+.product-info-box-4,
+.logo-container {
   margin-bottom: 10rem;
 }
 
@@ -125,11 +132,7 @@ body {
 }
 
 .computer-image {
-  /* display: block; */
-  /* object-fit: cover; */
   overflow: hidden;
-  /* transform: scaleX(1.5);
-  transform: scaleY(1.5); */
   transform: translateX(-5rem);
 }
 
@@ -144,4 +147,30 @@ body {
 .device-image {
   height: 70%;
   width: 70%;
+}
+
+.product-info-box-4 {
+  display: flex;
+  gap: 2rem;
+}
+
+.pbox-4-advert > * {
+  margin-top: 2rem;
+}
+
+.logo-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.product-logo {
+  height: 100%;
+  width: 100;
+  display: block;
+}
+
+.product-info-box-5 > * {
+  margin-bottom: 3rem;
 }
