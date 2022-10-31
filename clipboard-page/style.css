@@ -23,15 +23,14 @@ body {
 
 .first-section {
   margin: 0 auto;
-  width: 1000px;
+  width: 100rem;
   padding: 5rem;
   text-align: center;
-  background-color: aqua;
+  background-color: #fff;
   background-image: url(./images/bg-header-desktop.png);
   background-position: center top;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  background-size: 100%;
   transition: all 0.3s;
 }
 
@@ -110,6 +109,7 @@ body {
 
 .product-info-box-2,
 .product-info-box-4,
+.product-info-box-5,
 .logo-container {
   margin-bottom: 10rem;
 }
@@ -167,10 +167,49 @@ body {
 
 .product-logo {
   height: 100%;
-  width: 100;
+  width: 100%;
   display: block;
 }
 
 .product-info-box-5 > * {
   margin-bottom: 3rem;
+}
+
+.footer-container {
+  background-color: var(--color-neutral-2);
+  padding: 3rem;
+  margin: 0 auto;
+  width: 79.3%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-icon {
+  height: 5rem;
+  width: 5rem;
+  display: block;
+}
+
+.list-container {
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-item {
+  flex: 0 0 30%;
+  margin-bottom: 1rem;
+}
+
+li > a {
+  text-decoration: none;
+  color: var(--color-neutral-1);
+}
+
+.social-logo {
+  display: flex;
+  gap: 1rem;
 }
